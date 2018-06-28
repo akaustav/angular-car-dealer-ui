@@ -1,4 +1,4 @@
-export interface ICustomer {
+export interface ICar {
   id: number;
   name: string;
   make: string;
@@ -6,8 +6,9 @@ export interface ICustomer {
   year: number;
 }
 
-export class Customer implements ICustomer {
-  id: number;  name: string;
+export class Car implements ICar {
+  id: number;
+  name: string;
   make: string;
   model: string;
   year: number;
